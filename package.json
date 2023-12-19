@@ -5,10 +5,12 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "postbuild": "npm run copyfiles && npm run copyassets",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "prebuild": "rimraf docs",
-    "postbuild": "copyfiles -u 3 dist/my-personal-app/browser/* docs",
+    "copyfiles": "copyfiles -u 3 dist/my-personal-app/browser/* docs",
+    "copyassets": "copyfiles -u 3 dist/my-personal-app/browser/assets/* docs",
     "prepare": "husky install",
     "lint": "ng lint"
   },
