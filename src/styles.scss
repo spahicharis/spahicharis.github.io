@@ -14,13 +14,15 @@ Version: 1.2
 /** Base Styles
 --------------------------------------------------------------*/
 :root {
-  --accent-color: #F26649;
-  --secondary-color: #F5F3EB;
-  --dark-color: #241F21;
+  --accent-color: #DAFF3E;
+  --primary-btn-color: #000;
+  --secondary-color: #FFFFFF;
+  --dark-color: #000;
   --grey-color: #CECBC7;
-  --body-text-color: #241F21;
-  --light-text-color: #696969;
-  --link-color: #241F21;
+  --body-text-color: #FFFFFF;
+  --light-text-color: #6F6F6F;
+  --link-color: #FFF;
+  --main-bg-color: #111111;
 }
 
 *,
@@ -40,7 +42,7 @@ body {
   font-size: 19px;
   line-height: 1.6em;
   color: var(--body-text-color);
-  background-color: var(--secondary-color);
+  background-color: var(--main-bg-color);
 }
 
 h1,
@@ -133,7 +135,7 @@ a {
 }
 
 a:hover {
-  color: var(--accent-color);
+  color: var(--dark-color);
   text-decoration: none;
 }
 
@@ -142,17 +144,17 @@ button.btn.btn-primary.btn-lg {
   font-size: 16px;
   font-weight: 700;
   padding: 18px 45px;
-  box-shadow: 0px 25px 45px rgba(242, 102, 73, 0.2);
+  box-shadow: 0px 25px 45px #DAFF3E;
   border-radius: 5px;
   transition: 0.5s;
 }
 
 .btn-primary {
-  --bs-btn-color: #F5F2EA;
+  --bs-btn-color: #000;
   --bs-btn-bg: var(--accent-color);
   --bs-btn-border-color: var(--accent-color);
-  --bs-btn-hover-color: #F5F2EA;
-  --bs-btn-hover-bg: var(--dark-color);
+  --bs-btn-hover-color: var(--primary-btn-color);
+  --bs-btn-hover-bg: var(--accent-color);
   --bs-btn-hover-border-color: var(--dark-color);
   --bs-btn-focus-shadow-rgb: 49, 132, 253;
   --bs-btn-active-color: var(--secondary-color);
@@ -298,7 +300,7 @@ header {
 }
 
 img.hero-img {
-  border: 10px solid rgba(242, 102, 73, 0.2);
+  border: 10px solid var(--accent-color);
 }
 
 
@@ -633,7 +635,7 @@ article.blog-article {
 /* ----------  contact section  ----------  */
 
 .contact-list {
-  border: 1px solid #F26649;
+  border: 1px solid var(--accent-color);
   border-radius: 15px;
   width: 237px;
   height: 145px;
@@ -659,7 +661,7 @@ p.contact-paragraph {
 @media only screen and (max-width: 900px) {
 
   .contact-list {
-    border: 1px solid #F26649;
+    border: 1px solid var(--accent-color);
     border-radius: 15px;
     width: 237px;
     height: 100px;
