@@ -30,6 +30,18 @@
 
     </div>
 
+    <div>
+      <p-galleria [value]="images"
+                  [showIndicators]="false"
+                  [showThumbnails]="false"
+                  [changeItemOnIndicatorHover]="true"
+                  [responsiveOptions]="responsiveOptions"
+                  [containerStyle]="{ 'max-width': '640px' }">
+        <ng-template pTemplate="item" let-item>
+          <img [src]="item.itemImageSrc" width="150px" style="display: block;" alt="Image"/>
+        </ng-template>
+      </p-galleria>
+    </div>
 
     <div class="mb-5">
       <p class="copyright ">© Free HTML template by: <a href="https://templatesjungle.com/">

@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1702989359576,
+  "timestamp": 1703060095025,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,10 +13,10 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main-ZTB4PIEW.js",
+        "/main-U6LRK6IF.js",
         "/manifest.webmanifest",
         "/polyfills-LZBJRJJE.js",
-        "/styles-GNXPPUPB.css"
+        "/styles-QVUW3AL5.css"
       ],
       "patterns": []
     },
@@ -64,6 +64,8 @@
         "/assets/commentor-item1.jpg",
         "/assets/commentor-item2.jpg",
         "/assets/commentor-item3.jpg",
+        "/assets/data/education.data.ts",
+        "/assets/data/experience.data.ts",
         "/assets/icons/icon-128x128.png",
         "/assets/icons/icon-144x144.png",
         "/assets/icons/icon-152x152.png",
@@ -90,7 +92,11 @@
         "/assets/team3.jpg",
         "/assets/team4.jpg",
         "/assets/team5.jpg",
-        "/assets/video game logo companion cube.png"
+        "/assets/video game logo companion cube.png",
+        "/media/Inter-italic.var-SWFAXF2C.woff2",
+        "/media/Inter-roman.var-WIJJYAE4.woff2",
+        "/media/color-3LUHUBGQ.png",
+        "/media/hue-RMMBQOAC.png"
       ],
       "patterns": []
     }
@@ -133,6 +139,8 @@
     "/assets/commentor-item1.jpg": "e16371a83fa64162303a8513fc208e7cb7f9044a",
     "/assets/commentor-item2.jpg": "feec47676c11269c491f1d52928612830aaf84ad",
     "/assets/commentor-item3.jpg": "41dae88bd22ebdfd590120bb532f233c517d4ed2",
+    "/assets/data/education.data.ts": "2ea4d992efc4440e1a7135e3a8a9335264fb08eb",
+    "/assets/data/experience.data.ts": "5b5d77e79921c250a0ea9842cca6a20a0fbf4c1c",
     "/assets/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
     "/assets/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
     "/assets/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
@@ -161,11 +169,15 @@
     "/assets/team5.jpg": "e5375bb03e4597e75c21a8c38222e6e9c4bee636",
     "/assets/video game logo companion cube.png": "f707a6be634660bf31524543d81c89e35fb9e813",
     "/favicon.ico": "1373b79cf54fe3c60912600477567042b2de8578",
-    "/index.html": "db8513c179bdff59e8db20b087413d799bb1ab6b",
-    "/main-ZTB4PIEW.js": "3397d1588390386f2e1ca16f10197d351a72e4a7",
+    "/index.html": "14d080765ebb74af666be34082fef7c9548ca842",
+    "/main-U6LRK6IF.js": "f172d475dfccf7c12889c327a0f92fc9a4e891c3",
     "/manifest.webmanifest": "5fa664c04ac5c31f5e648a544f4e5bcb289c6d7c",
+    "/media/Inter-italic.var-SWFAXF2C.woff2": "6f20a046917bf86d4b6cc29c4e2515bd64d2cb9b",
+    "/media/Inter-roman.var-WIJJYAE4.woff2": "7a2602d2ebb08ce895e33addb6fe595f1029431e",
+    "/media/color-3LUHUBGQ.png": "ff4c4bcb2207891b292f544edb4da9d2df5d45cf",
+    "/media/hue-RMMBQOAC.png": "f81ae627637a684614aa726e206c73ce099a01fd",
     "/polyfills-LZBJRJJE.js": "fda1c82c5c620f1fa442f687b3df45a037f6fcc9",
-    "/styles-GNXPPUPB.css": "0086f6afbfb978957ff3299ba51de298d0b9a4df"
+    "/styles-QVUW3AL5.css": "7a3a6eaddcad015fa496f937b6e11a23e2feb7fb"
   },
   "navigationUrls": [
     {
