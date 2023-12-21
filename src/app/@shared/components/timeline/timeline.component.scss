@@ -40,6 +40,7 @@ ul li {
 
 /* date */
 ul li .date {
+  box-shadow: 0px 2px 20px 0px #DAFF3E;
   --dateH: 3rem;
   height: var(--dateH);
   margin-inline: calc(var(--inlineP) * -1);
