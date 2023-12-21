@@ -23,7 +23,6 @@ Version: 1.2
   --light-text-color: #6F6F6F;
   --link-color: #FFF;
   --main-bg-color: #111111;
-  --bs-primary-rgb: var(--accent-color);
 }
 
 *,
@@ -140,6 +139,9 @@ a:hover {
   text-decoration: none;
 }
 
+.text-primary {
+  color: var(--accent-color) !important;
+}
 
 /* primary button  */
 button.btn.btn-primary.btn-lg {
