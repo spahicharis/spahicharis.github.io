@@ -139,6 +139,10 @@ a:hover {
   text-decoration: none;
 }
 
+.text-primary {
+  color: var(--accent-color);
+}
+
 /* primary button  */
 button.btn.btn-primary.btn-lg {
   font-size: 16px;
