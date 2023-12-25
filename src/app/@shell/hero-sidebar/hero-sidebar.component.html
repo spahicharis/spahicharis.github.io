@@ -40,7 +40,7 @@
                   [responsiveOptions]="responsiveOptions"
                   [containerStyle]="{ 'max-width': '640px' }">
         <ng-template pTemplate="item" let-item>
-          <img [src]="item.itemImageSrc" width="150px" style="display: block;" alt="Image"/>
+          <img  *ngIf="item?.itemImageSrc" [src]="item.itemImageSrc" width="150px" style="display: block;" alt="Image"/>
         </ng-template>
       </p-galleria>
     </div>

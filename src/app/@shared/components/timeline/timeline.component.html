@@ -3,8 +3,8 @@
   @for (i of items; track i) {
     <li>
       <div class="date">{{i.from}} - {{i.present ? 'Present' : i.to}}</div>
-      <div class="title">{{i.title}}</div>
-      <div class="descr">{{i.where}}</div>
+      <div class="title">{{i.title}} <br> <small>{{i.where}}</small></div>
+      <div class="descr" [innerHTML]="i.description"></div>
     </li>
   }
 

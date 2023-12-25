@@ -4,4 +4,5 @@ export interface TimelineModel {
   where: string,
   title: string,
   present?: boolean,
+  description?: string,
 }

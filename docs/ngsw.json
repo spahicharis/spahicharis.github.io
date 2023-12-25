@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1703249275408,
+  "timestamp": 1703492318134,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main-X5LM3RVS.js",
+        "/main-M2MOJIPA.js",
         "/manifest.webmanifest",
         "/polyfills-LZBJRJJE.js",
         "/styles-L4Y7PCU6.css"
@@ -78,7 +78,7 @@
     "/assets/chocolat/loader.gif": "313b867d11fc0dd6bc6ca47c334bbcf18956ca76",
     "/assets/chocolat/right.png": "2ea5f9983826262acd537b23a23e563cacda4f59",
     "/assets/data/education.data.ts": "2ea4d992efc4440e1a7135e3a8a9335264fb08eb",
-    "/assets/data/experience.data.ts": "5b5d77e79921c250a0ea9842cca6a20a0fbf4c1c",
+    "/assets/data/experience.data.ts": "7579b2450a7532ee4a271b6581fa9499585011aa",
     "/assets/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
     "/assets/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
     "/assets/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
@@ -89,8 +89,8 @@
     "/assets/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
     "/assets/profile_hs_2016.jpg": "c9285f945cb168b74fca99b2c4255bbe5492122f",
     "/favicon.ico": "1373b79cf54fe3c60912600477567042b2de8578",
-    "/index.html": "14bb164041e45fdeac9467f938ab9c967a328168",
-    "/main-X5LM3RVS.js": "f32d2a8f6f5ce83f6d806866a3f7461b53041d85",
+    "/index.html": "ed4f47aab455462932d98cef270bbdbfa3969577",
+    "/main-M2MOJIPA.js": "e6a652717388f6ac01ab84bb3891953024de7517",
     "/manifest.webmanifest": "5fa664c04ac5c31f5e648a544f4e5bcb289c6d7c",
     "/media/Inter-italic.var-SWFAXF2C.woff2": "6f20a046917bf86d4b6cc29c4e2515bd64d2cb9b",
     "/media/Inter-roman.var-WIJJYAE4.woff2": "7a2602d2ebb08ce895e33addb6fe595f1029431e",

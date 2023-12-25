@@ -1,13 +1,15 @@
 import { Component } from '@angular/core';
 import { IconifyIconComponent } from "../../@shared/components/iconify-icon/iconify-icon.component";
 import { CarouselModule } from 'primeng/carousel';
+import { NgOptimizedImage } from "@angular/common";
 
 @Component({
   selector: 'app-about',
   standalone: true,
   imports: [
     IconifyIconComponent,
-    CarouselModule
+    CarouselModule,
+    NgOptimizedImage
   ],
   templateUrl: './about.component.html',
   styleUrl: './about.component.scss'
